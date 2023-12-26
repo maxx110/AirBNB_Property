@@ -29,3 +29,25 @@ To set up this project, you need Python 3.x and the following packages:
 - joblib
 
 Install the required packages using pip:
+
+
+## Usage
+To use this project:
+1. Clone the repository to your local machine.
+2. Place your dataset in the root directory, or update the file path in the script.
+3. Run the script using Python:
+
+
+## File Structure
+- `model_trainer_evaluator.py`: The main script containing all functions and class definitions.
+- `models/`: Directory where trained models and their metadata are saved.
+- `regression/`: Subdirectory for regression models.
+ - `decision_tree/`
+ - `random_forest/`
+ - `gradient_boosting/`
+- `data/`: Directory to place your datasets (optional structure).
+- `README.md`: This documentation file.
+
+## License
+This project is released under the [MIT License](LICENSE).
+
