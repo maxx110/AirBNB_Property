@@ -1,24 +1,31 @@
-# Modelling Airbnb's Property Listing Dataset
+# Advanced Model Trainer and Evaluator
 
-## Description
-This repository contains code to model the Airbnb property dataset using machine learning techniques.
+## Table of Contents
+- [Project Description](#project-description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [License](#license)
 
-## Getting Started
-Follow the steps below to create a machine learning model using this code.
+## Project Description
+The Advanced Model Trainer and Evaluator is a Python project aimed at demonstrating advanced machine learning techniques with scikit-learn. This project includes a script capable of loading data, preprocessing it, training multiple regression models (Decision Tree, Random Forest, Gradient Boosting), tuning their hyperparameters, evaluating their performance, and identifying the best-performing model.
 
-1. **Create a Machine Learning Model**: 
-   - [ ] Step 1: More instuctions to follow
-   - [ ] Step 2: More details to follow
-   - [ ] ...
+### Objectives
+- To provide a hands-on example of machine learning model training and evaluation.
+- To demonstrate hyperparameter tuning and model comparison techniques.
+- To learn and apply best practices in machine learning with scikit-learn.
 
-## Usage
-Code is to predict prices
+### What I Learned
+- Implementing various regression models in scikit-learn.
+- Custom and grid search-based hyperparameter tuning.
+- Saving and loading machine learning models with joblib.
+- Writing modular and reusable code for machine learning tasks.
 
-## Contributing
-If you'd like to contribute to this project, please follow the (CONTRIBUTING.md).
+## Installation
+To set up this project, you need Python 3.x and the following packages:
+- pandas
+- numpy
+- scikit-learn
+- joblib
 
-## License
-This project is licensed under the [License Name] - see the (LICENSE.md) file for details.
-
-## Acknowledgments
-Mention any resources, libraries, or tools you used or were inspired by during the development of this project.
+Install the required packages using pip:
